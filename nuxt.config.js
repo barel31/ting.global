@@ -60,10 +60,7 @@ export default {
       "~/components/marketplace",
       "~/components/group-page",
       "~/components/legal_AI_Ethics",
-      "~/components/singularityNet",
-      "~/components/chatbot",
-      "~/components/certifications",
-      "~/components/certifications/templates"
+      "~/components/singularityNet"
     ]
   },
 
