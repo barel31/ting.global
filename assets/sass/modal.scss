@@ -1,0 +1,192 @@
+// MODAL
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+  z-index: 9999;
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(#fff, 0.7);
+  }
+
+  &__container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: calc(100% - 2 * #{$padding-sides-mobile});
+    max-width: 45rem;
+    background-color: #fff;
+    padding: 3rem 3rem 4rem;
+    text-align: center;
+    box-shadow: $boxshadow2;
+    border-radius: 1rem;
+    transition: all 0.5s;
+    z-index: 99999;
+  }
+
+  &.active &__container {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  &__close {
+    font-size: 2rem;
+    color: $color-blue-1;
+    margin-bottom: 2.5rem;
+    transition: color 0.5s;
+    cursor: pointer;
+
+    &:hover {
+      color: $color-azure;
+    }
+
+    @include respond(mobile) {
+      font-size: 1.8rem;
+    }
+  }
+
+  &.error &__close {
+    color: $color-error;
+
+    &:hover {
+      color: $color-azure;
+    }
+  }
+
+  &__heading {
+    color: $color-blue-2;
+    letter-spacing: initial;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+
+  &.error &__heading {
+    color: $color-error;
+  }
+
+  &__text {
+    font-size: 1.65rem;
+
+    @include respond(mobile) {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+// NEW CHALLENGE MODAL
+.new-challenge-modal {
+  &__section {
+    &:not(:last-child) {
+      margin-bottom: 5rem;
+
+      @include respond(mobile) {
+        margin-bottom: 4rem;
+      }
+    }
+  }
+
+  &__subheading {
+    font-size: 1.9rem;
+    margin-bottom: 1.8rem;
+    line-height: 1.6;
+
+    @include respond(mobile) {
+      font-size: 1.7rem;
+    }
+  }
+
+  &__options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+    @include respond(mobile) {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  }
+
+  &.join-challenge .button {
+    width: 15rem;
+  }
+
+  &__link-section,
+  .section-heading-wrapper + .error-message {
+    position: absolute;
+    width: 100%;
+    padding: 0 4rem;
+    left: 0;
+    top: 50%;
+    transform: translateY(-30%);
+    text-align: center;
+
+    @include respond(mobile) {
+      padding: 0 2rem;
+    }
+  }
+
+  &__link {
+    font-size: 2.3rem;
+    color: $color-blue-2;
+    transition: color 0.5s;
+
+    @include respond(mobile) {
+      font-size: 2.1rem;
+    }
+
+    &:hover {
+      color: $color-gold-3;
+    }
+  }
+}
+
+.template-button {
+  input {
+    display: none;
+  }
+
+  label {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    box-shadow: $boxshadow2;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    border: 0.2rem solid transparent;
+    font-weight: 500;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+
+    @include respond(mobile) {
+      font-size: 1.55rem;
+    }
+
+    &:hover {
+      background-color: rgba($color-azure-light, 0.8);
+    }
+  }
+
+  input:checked + label {
+    background-color: rgba($color-azure-light, 0.8);
+    border: 0.2rem solid $color-azure;
+  }
+}

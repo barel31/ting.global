@@ -1,0 +1,176 @@
+[
+    {
+        "title": "The Team",
+        "members": [
+            {
+                "name": "Sharon Gal-Or",
+                "image": "sharon.png",
+                "role": "Founder",
+                "description": "Author & an advisor in the fields of education, sustainability and leadership.",
+                "link": "http://hk.linkedin.com/in/sharongalor"
+            },
+            {
+                "name": "Harel Dikla",
+                "image": "dikla.jpeg",
+                "role": "Educational project coordinator"
+            },
+            {
+                "name": "Shayne Hoskow",
+                "image": "shayne.jpeg",
+                "description": "Student studying Legal Studies and Community and Nonprofit Leadership at Univeristy of Wisconsin Madison."
+            },
+            {
+                "name": "Joseph Mufutu",
+                "image": "joseph.jpeg",
+                "role": "Community-Led Developer",
+                "description": "Ting Global Cultural Ambassador and Community-Led Developer specializing in Localizing Sustainable Development Goals (SDGs).",
+                "link": "https://www.linkedin.com/in/joseph-mufutu-12107461"
+            },
+            {
+                "name": "Andrew Gilbert",
+                "image": "andrew.jpeg",
+                "role": "Graphic Designer",
+                "description": "Graphic Designer, using art and design to make learning and working together fun and interesting."
+            },
+            {
+                "name": "Kate Breeze-Raz",
+                "image": "kate.jpeg",
+                "role": "Designer",
+                "description": "Digital designer, creating graphics and using digital art to enhance Challenge 18 and making it fun for everyone to play and enjoy!"
+            },
+            {
+                "name": "Yinon Hever",
+                "image": "yinon.jpg",
+                "role": "Developer",
+                "description": "Full-stack web developer, specializing in planning and building modern websites and web applications, with advanced designs and optimized user experience.",
+                "link": "https://yinonhever.com/"
+            },
+            {
+                "name": "Veronica Aminov",
+                "image": "veronica.jpeg",
+                "role": "Content Writing and Administration"
+            },
+            {
+                "name": "Dennis Tomoina",
+                "image": "denis.jpeg",
+                "role": "Program Operations Lead - Africa",
+                "description": "Social Entrepreneur and Development Economist with specific focus on developing countries."
+            },
+            {
+                "name": "Sadia Kuku Idris",
+                "image": "sadia.jpeg",
+                "role": "Administrator and social worker, anti SGBV advocator"
+            },
+            {
+                "name": "Santos Chris",
+                "image": "santos.jpeg",
+                "role": "Kakuma Refugee Camp Leader"
+            }
+        ]
+    },
+    {
+        "title": "Advisory Board",
+        "members": [
+            {
+                "name": "Prof. Shai Dekel",
+                "image": "dekel.png",
+                "description": "Visiting associate professor at the school of mathematics, Tel-Aviv University. He also serves as a principal scientist in GE Global Research and as Angel Investor in TLVseed and as a member of Akban."
+            },
+            {
+                "name": "Dr. Dafna Gan",
+                "image": "dafnagan.jpg",
+                "description": "Co-founder and the director of The Center for Environmental and Sustainability Education, head of the environmental education Master’s program in the Department of Sciences at Kibbutzim College of Education and the Arts."
+            },
+            {
+                "name": "Marcelo Sternberg",
+                "image": "sternberg.jpeg",
+                "description": "Professor, Ecology, School of Plant Sciences & Food Security, Tel Aviv University."
+            },
+            {
+                "name": "Anat Rafael",
+                "image": "anat.jpeg",
+                "description": "Jungian psychotherapist who treats with arts - MA. Anat is the co-founder of the Incubator for Multicultural Leadership in Sderot - Israel."
+            },
+            {
+                "name": "Adi Shmorak",
+                "image": "adi.jpeg",
+                "description": "Product executive and strategist, guiding entrepreneurs on their journey to Product/Market Fit. Works with multiple impact organizations, set to improve our world through education."
+            },
+            {
+                "name": "Guy Salomon",
+                "image": "guy.png",
+                "description": "Co-founder and CEO of GOOL, an Israeli education wesbite."
+            },
+            {
+                "name": "Avi Z Liran",
+                "image": "avi.jpeg",
+                "description": "Global Delightful Experience and Organizational Culture Consultant, TEDx & CSP Keynote Speaker, Author, Trainer, Coach, and Mentor. Developing Delightful Leaders, Organizations, and Communities."
+            }
+        ]
+    },
+    {
+        "title": "Regional Representatives",
+        "members": [
+            {
+                "name": "Johnny Chong",
+                "image": "chong.jpg",
+                "role": "Hong Kong",
+                "description": "Founding Chairman of STARS Foundation since 2005.  Trained as an engineer with strong business architect and development professional to organize resources logically, effectively and being involved in start-ups business model development, technology transfer M&A and IPO consultancy since year 2015."
+            },
+            {
+                "name": "David Hanson Jr.",
+                "image": "hanson.png",
+                "role": "Hong Kong",
+                "description": "American roboticist who is the founder and Chief Executive Officer (CEO) of Hanson Robotics, a Hong Kong-based robotics company founded in 2013."
+            },
+            {
+                "name": "Lawrence Yee",
+                "image": "yee.png",
+                "role": "Hong Kong",
+                "description": "Co-President (2017-), President (2015-16), Board Director and founder of Cradle Program of AAMA-PRD chapter since 2015.  He also sits on the board of BIIA (Business Information Industry Association) since its inception in 2006."
+            },
+            {
+                "name": "Newton Lee",
+                "image": "lee.png",
+                "role": "Florida",
+                "description": "Computer scientist who is an author and administrator in the field of education and technology commercialization. He is known for his total information awareness book series."
+            },
+            {
+                "name": "Dr. Ting Ho",
+                "image": "tingho.jpeg",
+                "role": "Malaysia",
+                "description": "Director, Capital Investment Bank Limited. Former First Chief Economist of FedEx Corp."
+            },
+            {
+                "name": "Tom Ross",
+                "image": "tomross.jpg",
+                "role": "United States",
+                "description": "Director of Sentient Rights Advocacy for the United States Transhumanist Party."
+            },
+            {
+                "name": "Josune Moneo Viloria",
+                "image": "josune.jpeg",
+                "role": "Spain",
+                "description": "Effective Social Transformation towards SDG strategist. Holistic thinker & planner and Collaborative Growth specialist"
+            },
+            {
+                "name": "Skaistė Budbergytė-Zabielaitė",
+                "image": "sky.jpg",
+                "role": "Lithuania",
+                "description": "After gaining experience in the fields of innovation facilitation and commercialisation of businesses, backed by LL.M. from Tel Aviv University in Technology Law, Skaistė has formed an unsurpassing set of multidisciplinary skills as a forward-thinking entrepreneur."
+            },
+            {
+                "name": "Inessa Kraft",
+                "image": "inessa.jpeg",
+                "role": "Cyprus",
+                "description": "Actress and awarded filmmaker - who believes that humanity, nature, and progress can exist together in harmony. Suitability is one of the main topics of her work and life."
+            },
+            {
+                "name": "Sharif Uddin",
+                "image": "sharif.jpeg",
+                "role": "Malaysia",
+                "description": "Assistant Professor at Paris Graduate School."
+            }
+        ]
+    }
+]
