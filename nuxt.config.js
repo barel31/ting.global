@@ -94,11 +94,6 @@ export default {
     axios: {
       baseURL: "http://localhost:3000"
     },
-    emailjsKey: process.env.EMAILJS_KEY,
-    emailjsTemplate: process.env.EMAILJS_TEMPLATE,
-    emailjsService: process.env.EMAILJS_SERVICE,
-    paypalSandbox: process.env.PAYPAL_SANDBOX,
-    paypalLive: process.env.PAYPAL_LIVE
   },
 
   server: {
