@@ -64,7 +64,7 @@ export default {
     ]
   },
 
-  buildModules: ["@nuxtjs/style-resources", "@nuxtjs/vuetify", "nuxt-compress"],
+  buildModules: ["@nuxtjs/style-resources", "@nuxtjs/vuetify"],
 
   modules: ["@nuxtjs/axios", "cookie-universal-nuxt", "nuxt-route-meta"],
 
